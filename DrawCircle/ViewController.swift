@@ -75,9 +75,9 @@ class ViewController: UIViewController {
     
     @objc private func clickButton() {
         if timer == nil {
-//            timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(updateLayer), userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(updateLayer), userInfo: nil, repeats: true)
         }
-        updateLayer()
+//        updateLayer()
     }
 }
 
